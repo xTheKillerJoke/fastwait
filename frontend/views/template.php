@@ -97,7 +97,7 @@
 			/* Friendly URL'S of Products */
 			$routeProducts = ProductsController::ctrShowProductDetail($item, $val);
 		
-			var_dump($routeProducts);
+			var_dump($routeProducts["route"]);
 
 			/* =============================================================================================== */
 			
