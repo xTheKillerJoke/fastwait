@@ -30,7 +30,7 @@ class ProductsModel
   static public function mdlShowSubCategories($table, $item, $val)
   {
     $stmt = Connection::connect()->prepare("SELECT * FROM $table WHERE $item = :$item");
-    $stmt -> bindParam(":".$item, $val, PDO::PARAM_INT);
+    $stmt -> bindParam(":".$item, $val, PDO::PARAM_STR);
     $stmt -> execute();
 
     return $stmt -> fetchAll();
@@ -46,6 +46,19 @@ class ProductsModel
     $stmt -> execute();
 
     return $stmt -> fetchAll();
+
+    $stmt -> close();
+    $stmt = null;
+  }
+
+  /* Show Product Detail */
+  static public function mdlShowProductDetail($table, $item, $val)
+  {
+    $stmt = Connection::connect()->prepare("SELECT * FROM $table WHERE $item = :$item");
+    $stmt -> bindParam(":".$item, $val, PDO::PARAM_STR);
+    $stmt -> execute();
+
+    return $stmt -> fetch();
 
     $stmt -> close();
     $stmt = null;
