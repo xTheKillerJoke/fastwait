@@ -254,7 +254,7 @@
         <!-- Block2 -->
         <div class="block2">
           <div class="block2-pic hov-img0 label-offer" data-label="Offer 40%">
-            <img src="http://localhost/templateProject/backend/views/img/products/women/product-01.jpg" alt="IMG-PRODUCT">
+            <img src="http://localhost/fastweit/backend/views/img/products/women/product-01.jpg" alt="IMG-PRODUCT">
 
             <a href="#"
               class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
@@ -278,8 +278,8 @@
 
             <div class="block2-txt-child2 flex-r p-t-3">
               <a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
-                <img class="icon-heart1 dis-block trans-04" src="http://localhost/templateProject/backend/views/img/icons/icon-heart-01.png" alt="ICON">
-                <img class="icon-heart2 dis-block trans-04 ab-t-l" src="http://localhost/templateProject/backend/views/img/icons/icon-heart-02.png" alt="ICON">
+                <img class="icon-heart1 dis-block trans-04" src="http://localhost/fastweit/backend/views/img/icons/icon-heart-01.png" alt="ICON">
+                <img class="icon-heart2 dis-block trans-04 ab-t-l" src="http://localhost/fastweit/backend/views/img/icons/icon-heart-02.png" alt="ICON">
               </a>
             </div>
           </div>
@@ -290,7 +290,7 @@
         <!-- Block2 -->
         <div class="block2">
           <div class="block2-pic hov-img0">
-            <img src="http://localhost/templateProject/backend/views/img/products/women/product-02.jpg" alt="IMG-PRODUCT">
+            <img src="http://localhost/fastweit/backend/views/img/products/women/product-02.jpg" alt="IMG-PRODUCT">
 
             <a href="#"
               class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
@@ -311,8 +311,8 @@
 
             <div class="block2-txt-child2 flex-r p-t-3">
               <a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
-                <img class="icon-heart1 dis-block trans-04" src="http://localhost/templateProject/backend/views/img/icons/icon-heart-01.png" alt="ICON">
-                <img class="icon-heart2 dis-block trans-04 ab-t-l" src="http://localhost/templateProject/backend/views/img/icons/icon-heart-02.png" alt="ICON">
+                <img class="icon-heart1 dis-block trans-04" src="http://localhost/fastweit/backend/views/img/icons/icon-heart-01.png" alt="ICON">
+                <img class="icon-heart2 dis-block trans-04 ab-t-l" src="http://localhost/fastweit/backend/views/img/icons/icon-heart-02.png" alt="ICON">
               </a>
             </div>
           </div>
@@ -323,7 +323,7 @@
         <!-- Block2 -->
         <div class="block2">
           <div class="block2-pic hov-img0 label-new" data-label="New">
-            <img src="http://localhost/templateProject/backend/views/img/products/men/product-15.jpg" alt="IMG-PRODUCT">
+            <img src="http://localhost/fastweit/backend/views/img/products/men/product-15.jpg" alt="IMG-PRODUCT">
 
             <a href="#"
               class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
@@ -344,8 +344,8 @@
 
             <div class="block2-txt-child2 flex-r p-t-3">
               <a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
-                <img class="icon-heart1 dis-block trans-04" src="http://localhost/templateProject/backend/views/img/icons/icon-heart-01.png" alt="ICON">
-                <img class="icon-heart2 dis-block trans-04 ab-t-l" src="http://localhost/templateProject/backend/views/img/icons/icon-heart-02.png" alt="ICON">
+                <img class="icon-heart1 dis-block trans-04" src="http://localhost/fastweit/backend/views/img/icons/icon-heart-01.png" alt="ICON">
+                <img class="icon-heart2 dis-block trans-04 ab-t-l" src="http://localhost/fastweit/backend/views/img/icons/icon-heart-02.png" alt="ICON">
               </a>
             </div>
           </div>
@@ -356,7 +356,7 @@
         <!-- Block2 -->
         <div class="block2">
           <div class="block2-pic hov-img0">
-            <img src="http://localhost/templateProject/backend/views/img/products/women/product-03.jpg" alt="IMG-PRODUCT">
+            <img src="http://localhost/fastweit/backend/views/img/products/women/product-03.jpg" alt="IMG-PRODUCT">
 
             <a href="#"
               class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
@@ -377,8 +377,8 @@
 
             <div class="block2-txt-child2 flex-r p-t-3">
               <a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
-                <img class="icon-heart1 dis-block trans-04" src="http://localhost/templateProject/backend/views/img/icons/icon-heart-01.png" alt="ICON">
-                <img class="icon-heart2 dis-block trans-04 ab-t-l" src="http://localhost/templateProject/backend/views/img/icons/icon-heart-02.png" alt="ICON">
+                <img class="icon-heart1 dis-block trans-04" src="http://localhost/fastweit/backend/views/img/icons/icon-heart-01.png" alt="ICON">
+                <img class="icon-heart2 dis-block trans-04 ab-t-l" src="http://localhost/fastweit/backend/views/img/icons/icon-heart-02.png" alt="ICON">
               </a>
             </div>
           </div>
@@ -389,7 +389,7 @@
         <!-- Block2 -->
         <div class="block2">
           <div class="block2-pic hov-img0">
-            <img src="http://localhost/templateProject/backend/views/img/products/women/product-04.jpg" alt="IMG-PRODUCT">
+            <img src="http://localhost/fastweit/backend/views/img/products/women/product-04.jpg" alt="IMG-PRODUCT">
 
             <a href="#"
               class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
@@ -410,8 +410,8 @@
 
             <div class="block2-txt-child2 flex-r p-t-3">
               <a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
-                <img class="icon-heart1 dis-block trans-04" src="http://localhost/templateProject/backend/views/img/icons/icon-heart-01.png" alt="ICON">
-                <img class="icon-heart2 dis-block trans-04 ab-t-l" src="http://localhost/templateProject/backend/views/img/icons/icon-heart-02.png" alt="ICON">
+                <img class="icon-heart1 dis-block trans-04" src="http://localhost/fastweit/backend/views/img/icons/icon-heart-01.png" alt="ICON">
+                <img class="icon-heart2 dis-block trans-04 ab-t-l" src="http://localhost/fastweit/backend/views/img/icons/icon-heart-02.png" alt="ICON">
               </a>
             </div>
           </div>
@@ -422,7 +422,7 @@
         <!-- Block2 -->
         <div class="block2">
           <div class="block2-pic hov-img0">
-            <img src="http://localhost/templateProject/backend/views/img/products/accessories/product-27.jpg" alt="IMG-PRODUCT">
+            <img src="http://localhost/fastweit/backend/views/img/products/accessories/product-27.jpg" alt="IMG-PRODUCT">
 
             <a href="#"
               class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
@@ -443,8 +443,8 @@
 
             <div class="block2-txt-child2 flex-r p-t-3">
               <a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
-                <img class="icon-heart1 dis-block trans-04" src="http://localhost/templateProject/backend/views/img/icons/icon-heart-01.png" alt="ICON">
-                <img class="icon-heart2 dis-block trans-04 ab-t-l" src="http://localhost/templateProject/backend/views/img/icons/icon-heart-02.png" alt="ICON">
+                <img class="icon-heart1 dis-block trans-04" src="http://localhost/fastweit/backend/views/img/icons/icon-heart-01.png" alt="ICON">
+                <img class="icon-heart2 dis-block trans-04 ab-t-l" src="http://localhost/fastweit/backend/views/img/icons/icon-heart-02.png" alt="ICON">
               </a>
             </div>
           </div>
@@ -455,7 +455,7 @@
         <!-- Block2 -->
         <div class="block2">
           <div class="block2-pic hov-img0">
-            <img src="http://localhost/templateProject/backend/views/img/products/women/product-05.jpg" alt="IMG-PRODUCT">
+            <img src="http://localhost/fastweit/backend/views/img/products/women/product-05.jpg" alt="IMG-PRODUCT">
 
             <a href="#"
               class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
@@ -476,8 +476,8 @@
 
             <div class="block2-txt-child2 flex-r p-t-3">
               <a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
-                <img class="icon-heart1 dis-block trans-04" src="http://localhost/templateProject/backend/views/img/icons/icon-heart-01.png" alt="ICON">
-                <img class="icon-heart2 dis-block trans-04 ab-t-l" src="http://localhost/templateProject/backend/views/img/icons/icon-heart-02.png" alt="ICON">
+                <img class="icon-heart1 dis-block trans-04" src="http://localhost/fastweit/backend/views/img/icons/icon-heart-01.png" alt="ICON">
+                <img class="icon-heart2 dis-block trans-04 ab-t-l" src="http://localhost/fastweit/backend/views/img/icons/icon-heart-02.png" alt="ICON">
               </a>
             </div>
           </div>
@@ -488,7 +488,7 @@
         <!-- Block2 -->
         <div class="block2">
           <div class="block2-pic hov-img0">
-            <img src="http://localhost/templateProject/backend/views/img/products/women/product-06.jpg" alt="IMG-PRODUCT">
+            <img src="http://localhost/fastweit/backend/views/img/products/women/product-06.jpg" alt="IMG-PRODUCT">
 
             <a href="#"
               class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
@@ -509,8 +509,8 @@
 
             <div class="block2-txt-child2 flex-r p-t-3">
               <a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
-                <img class="icon-heart1 dis-block trans-04" src="http://localhost/templateProject/backend/views/img/icons/icon-heart-01.png" alt="ICON">
-                <img class="icon-heart2 dis-block trans-04 ab-t-l" src="http://localhost/templateProject/backend/views/img/icons/icon-heart-02.png" alt="ICON">
+                <img class="icon-heart1 dis-block trans-04" src="http://localhost/fastweit/backend/views/img/icons/icon-heart-01.png" alt="ICON">
+                <img class="icon-heart2 dis-block trans-04 ab-t-l" src="http://localhost/fastweit/backend/views/img/icons/icon-heart-02.png" alt="ICON">
               </a>
             </div>
           </div>
@@ -521,7 +521,7 @@
         <!-- Block2 -->
         <div class="block2">
           <div class="block2-pic hov-img0">
-            <img src="http://localhost/templateProject/backend/views/img/products/shoes/product-34.jpg" alt="IMG-PRODUCT">
+            <img src="http://localhost/fastweit/backend/views/img/products/shoes/product-34.jpg" alt="IMG-PRODUCT">
 
             <a href="#"
               class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
@@ -542,8 +542,8 @@
 
             <div class="block2-txt-child2 flex-r p-t-3">
               <a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
-                <img class="icon-heart1 dis-block trans-04" src="http://localhost/templateProject/backend/views/img/icons/icon-heart-01.png" alt="ICON">
-                <img class="icon-heart2 dis-block trans-04 ab-t-l" src="http://localhost/templateProject/backend/views/img/icons/icon-heart-02.png" alt="ICON">
+                <img class="icon-heart1 dis-block trans-04" src="http://localhost/fastweit/backend/views/img/icons/icon-heart-01.png" alt="ICON">
+                <img class="icon-heart2 dis-block trans-04 ab-t-l" src="http://localhost/fastweit/backend/views/img/icons/icon-heart-02.png" alt="ICON">
               </a>
             </div>
           </div>
@@ -554,7 +554,7 @@
         <!-- Block2 -->
         <div class="block2">
           <div class="block2-pic hov-img0">
-            <img src="http://localhost/templateProject/backend/views/img/products/women/product-07.jpg" alt="IMG-PRODUCT">
+            <img src="http://localhost/fastweit/backend/views/img/products/women/product-07.jpg" alt="IMG-PRODUCT">
 
             <a href="#"
               class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
@@ -575,8 +575,8 @@
 
             <div class="block2-txt-child2 flex-r p-t-3">
               <a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
-                <img class="icon-heart1 dis-block trans-04" src="http://localhost/templateProject/backend/views/img/icons/icon-heart-01.png" alt="ICON">
-                <img class="icon-heart2 dis-block trans-04 ab-t-l" src="http://localhost/templateProject/backend/views/img/icons/icon-heart-02.png" alt="ICON">
+                <img class="icon-heart1 dis-block trans-04" src="http://localhost/fastweit/backend/views/img/icons/icon-heart-01.png" alt="ICON">
+                <img class="icon-heart2 dis-block trans-04 ab-t-l" src="http://localhost/fastweit/backend/views/img/icons/icon-heart-02.png" alt="ICON">
               </a>
             </div>
           </div>
@@ -587,7 +587,7 @@
         <!-- Block2 -->
         <div class="block2">
           <div class="block2-pic hov-img0">
-            <img src="http://localhost/templateProject/backend/views/img/products/men/product-16.jpg" alt="IMG-PRODUCT">
+            <img src="http://localhost/fastweit/backend/views/img/products/men/product-16.jpg" alt="IMG-PRODUCT">
 
             <a href="#"
               class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
@@ -608,8 +608,8 @@
 
             <div class="block2-txt-child2 flex-r p-t-3">
               <a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
-                <img class="icon-heart1 dis-block trans-04" src="http://localhost/templateProject/backend/views/img/icons/icon-heart-01.png" alt="ICON">
-                <img class="icon-heart2 dis-block trans-04 ab-t-l" src="http://localhost/templateProject/backend/views/img/icons/icon-heart-02.png" alt="ICON">
+                <img class="icon-heart1 dis-block trans-04" src="http://localhost/fastweit/backend/views/img/icons/icon-heart-01.png" alt="ICON">
+                <img class="icon-heart2 dis-block trans-04 ab-t-l" src="http://localhost/fastweit/backend/views/img/icons/icon-heart-02.png" alt="ICON">
               </a>
             </div>
           </div>
@@ -620,7 +620,7 @@
         <!-- Block2 -->
         <div class="block2">
           <div class="block2-pic hov-img0">
-            <img src="http://localhost/templateProject/backend/views/img/products/accessories/product-26.jpg" alt="IMG-PRODUCT">
+            <img src="http://localhost/fastweit/backend/views/img/products/accessories/product-26.jpg" alt="IMG-PRODUCT">
 
             <a href="#"
               class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
@@ -641,8 +641,8 @@
 
             <div class="block2-txt-child2 flex-r p-t-3">
               <a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
-                <img class="icon-heart1 dis-block trans-04" src="http://localhost/templateProject/backend/views/img/icons/icon-heart-01.png" alt="ICON">
-                <img class="icon-heart2 dis-block trans-04 ab-t-l" src="http://localhost/templateProject/backend/views/img/icons/icon-heart-02.png" alt="ICON">
+                <img class="icon-heart1 dis-block trans-04" src="http://localhost/fastweit/backend/views/img/icons/icon-heart-01.png" alt="ICON">
+                <img class="icon-heart2 dis-block trans-04 ab-t-l" src="http://localhost/fastweit/backend/views/img/icons/icon-heart-02.png" alt="ICON">
               </a>
             </div>
           </div>
@@ -653,7 +653,7 @@
         <!-- Block2 -->
         <div class="block2">
           <div class="block2-pic hov-img0">
-            <img src="http://localhost/templateProject/backend/views/img/products/women/product-08.jpg" alt="IMG-PRODUCT">
+            <img src="http://localhost/fastweit/backend/views/img/products/women/product-08.jpg" alt="IMG-PRODUCT">
 
             <a href="#"
               class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
@@ -674,8 +674,8 @@
 
             <div class="block2-txt-child2 flex-r p-t-3">
               <a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
-                <img class="icon-heart1 dis-block trans-04" src="http://localhost/templateProject/backend/views/img/icons/icon-heart-01.png" alt="ICON">
-                <img class="icon-heart2 dis-block trans-04 ab-t-l" src="http://localhost/templateProject/backend/views/img/icons/icon-heart-02.png" alt="ICON">
+                <img class="icon-heart1 dis-block trans-04" src="http://localhost/fastweit/backend/views/img/icons/icon-heart-01.png" alt="ICON">
+                <img class="icon-heart2 dis-block trans-04 ab-t-l" src="http://localhost/fastweit/backend/views/img/icons/icon-heart-02.png" alt="ICON">
               </a>
             </div>
           </div>
@@ -686,7 +686,7 @@
         <!-- Block2 -->
         <div class="block2">
           <div class="block2-pic hov-img0">
-            <img src="http://localhost/templateProject/backend/views/img/products/women/product-09.jpg" alt="IMG-PRODUCT">
+            <img src="http://localhost/fastweit/backend/views/img/products/women/product-09.jpg" alt="IMG-PRODUCT">
 
             <a href="#"
               class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
@@ -707,8 +707,8 @@
 
             <div class="block2-txt-child2 flex-r p-t-3">
               <a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
-                <img class="icon-heart1 dis-block trans-04" src="http://localhost/templateProject/backend/views/img/icons/icon-heart-01.png" alt="ICON">
-                <img class="icon-heart2 dis-block trans-04 ab-t-l" src="http://localhost/templateProject/backend/views/img/icons/icon-heart-02.png" alt="ICON">
+                <img class="icon-heart1 dis-block trans-04" src="http://localhost/fastweit/backend/views/img/icons/icon-heart-01.png" alt="ICON">
+                <img class="icon-heart2 dis-block trans-04 ab-t-l" src="http://localhost/fastweit/backend/views/img/icons/icon-heart-02.png" alt="ICON">
               </a>
             </div>
           </div>
@@ -719,7 +719,7 @@
         <!-- Block2 -->
         <div class="block2">
           <div class="block2-pic hov-img0">
-            <img src="http://localhost/templateProject/backend/views/img/products/accessories/product-27.jpg" alt="IMG-PRODUCT">
+            <img src="http://localhost/fastweit/backend/views/img/products/accessories/product-27.jpg" alt="IMG-PRODUCT">
 
             <a href="#"
               class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
@@ -740,8 +740,8 @@
 
             <div class="block2-txt-child2 flex-r p-t-3">
               <a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
-                <img class="icon-heart1 dis-block trans-04" src="http://localhost/templateProject/backend/views/img/icons/icon-heart-01.png" alt="ICON">
-                <img class="icon-heart2 dis-block trans-04 ab-t-l" src="http://localhost/templateProject/backend/views/img/icons/icon-heart-02.png" alt="ICON">
+                <img class="icon-heart1 dis-block trans-04" src="http://localhost/fastweit/backend/views/img/icons/icon-heart-01.png" alt="ICON">
+                <img class="icon-heart2 dis-block trans-04 ab-t-l" src="http://localhost/fastweit/backend/views/img/icons/icon-heart-02.png" alt="ICON">
               </a>
             </div>
           </div>
@@ -752,7 +752,7 @@
         <!-- Block2 -->
         <div class="block2">
           <div class="block2-pic hov-img0">
-            <img src="http://localhost/templateProject/backend/views/img/products/women/product-10.jpg" alt="IMG-PRODUCT">
+            <img src="http://localhost/fastweit/backend/views/img/products/women/product-10.jpg" alt="IMG-PRODUCT">
 
             <a href="#"
               class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
@@ -773,8 +773,8 @@
 
             <div class="block2-txt-child2 flex-r p-t-3">
               <a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
-                <img class="icon-heart1 dis-block trans-04" src="http://localhost/templateProject/backend/views/img/icons/icon-heart-01.png" alt="ICON">
-                <img class="icon-heart2 dis-block trans-04 ab-t-l" src="http://localhost/templateProject/backend/views/img/icons/icon-heart-02.png" alt="ICON">
+                <img class="icon-heart1 dis-block trans-04" src="http://localhost/fastweit/backend/views/img/icons/icon-heart-01.png" alt="ICON">
+                <img class="icon-heart2 dis-block trans-04 ab-t-l" src="http://localhost/fastweit/backend/views/img/icons/icon-heart-02.png" alt="ICON">
               </a>
             </div>
           </div>

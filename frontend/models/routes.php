@@ -5,12 +5,12 @@ class Route
   /* Route User Side */
   public function ctrRoute()
   {
-    return "http://localhost/templateProject/frontend/";
+    return "http://localhost/fastweit/frontend/";
   }
 
   /* Route Server Side  */
   public function ctrRouteServer()
   {
-    return "http://localhost/templateProject/backend/";
+    return "http://localhost/fastweit/backend/";
   }
 }
