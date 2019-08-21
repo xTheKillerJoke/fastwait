@@ -3819,7 +3819,7 @@ input.num-product::-webkit-inner-spin-button {
 }
 
 .content {
-  width: calc(100% - 20px);
+  width: calc(100% - 15px);
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
