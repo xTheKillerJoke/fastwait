@@ -41,71 +41,71 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 
 @font-face {
   font-family: Poppins-Regular;
-  src: url('http://localhost/fastweit/frontend/views/css/fonts/poppins/poppins-regular-webfont.woff2') format('woff2'),
-    url('http://localhost/fastweit/frontend/views/css/fonts/poppins/poppins-regular-webfont.woff') format('woff');
+  src: url('http://localhost/fastwait/frontend/views/css/fonts/poppins/poppins-regular-webfont.woff2') format('woff2'),
+    url('http://localhost/fastwait/frontend/views/css/fonts/poppins/poppins-regular-webfont.woff') format('woff');
 }
 
 @font-face {
   font-family: Poppins-Light;
-  src: url('http://localhost/fastweit/frontend/views/css/fonts/poppins/poppins-light-webfont.woff2') format('woff2'),
-    url('http://localhost/fastweit/frontend/views/css/fonts/poppins/poppins-light-webfont.woff') format('woff');
+  src: url('http://localhost/fastwait/frontend/views/css/fonts/poppins/poppins-light-webfont.woff2') format('woff2'),
+    url('http://localhost/fastwait/frontend/views/css/fonts/poppins/poppins-light-webfont.woff') format('woff');
 }
 
 @font-face {
   font-family: Poppins-ExtraLight;
-  src: url('http://localhost/fastweit/frontend/views/css/fonts/poppins/poppins-extralight-webfont.woff2') format('woff2'),
-    url('http://localhost/fastweit/frontend/views/css/fonts/poppins/poppins-extralight-webfont.woff') format('woff');
+  src: url('http://localhost/fastwait/frontend/views/css/fonts/poppins/poppins-extralight-webfont.woff2') format('woff2'),
+    url('http://localhost/fastwait/frontend/views/css/fonts/poppins/poppins-extralight-webfont.woff') format('woff');
 }
 
 @font-face {
   font-family: Poppins-Medium;
-  src: url('http://localhost/fastweit/frontend/views/css/fonts/poppins/poppins-medium-webfont.woff2') format('woff2'),
-    url('http://localhost/fastweit/frontend/views/css/fonts/poppins/poppins-medium-webfont.woff') format('woff');
+  src: url('http://localhost/fastwait/frontend/views/css/fonts/poppins/poppins-medium-webfont.woff2') format('woff2'),
+    url('http://localhost/fastwait/frontend/views/css/fonts/poppins/poppins-medium-webfont.woff') format('woff');
 }
 
 @font-face {
   font-family: Poppins-Italic;
-  src: url('http://localhost/fastweit/frontend/views/css/fonts/poppins/poppins-italic-webfont.woff2') format('woff2'),
-    url('http://localhost/fastweit/frontend/views/css/fonts/poppins/poppins-italic-webfont.woff') format('woff');
+  src: url('http://localhost/fastwait/frontend/views/css/fonts/poppins/poppins-italic-webfont.woff2') format('woff2'),
+    url('http://localhost/fastwait/frontend/views/css/fonts/poppins/poppins-italic-webfont.woff') format('woff');
 }
 
 @font-face {
   font-family: Poppins-Bold;
-  src: url('http://localhost/fastweit/frontend/views/css/fonts/poppins/poppins-bold-webfont.woff2') format('woff2'),
-    url('http://localhost/fastweit/frontend/views/css/fonts/poppins/poppins-bold-webfont.woff') format('woff');
+  src: url('http://localhost/fastwait/frontend/views/css/fonts/poppins/poppins-bold-webfont.woff2') format('woff2'),
+    url('http://localhost/fastwait/frontend/views/css/fonts/poppins/poppins-bold-webfont.woff') format('woff');
 }
 
 @font-face {
   font-family: Poppins-SemiBold;
-  src: url('http://localhost/fastweit/frontend/views/css/fonts/poppins/poppins-semibold-webfont.woff2') format('woff2'),
-    url('http://localhost/fastweit/frontend/views/css/fonts/poppins/poppins-semibold-webfont.woff') format('woff');
+  src: url('http://localhost/fastwait/frontend/views/css/fonts/poppins/poppins-semibold-webfont.woff2') format('woff2'),
+    url('http://localhost/fastwait/frontend/views/css/fonts/poppins/poppins-semibold-webfont.woff') format('woff');
 }
 
 
 /*---------------------------------------------*/
 @font-face {
   font-family: PlayfairDisplay-Regular;
-  src: url('http://localhost/fastweit/frontend/views/css/fonts/playfairdisplay/playfairdisplay-regular-webfont.woff2') format('woff2'),
-    url('http://localhost/fastweit/frontend/views/css/fonts/playfairdisplay/playfairdisplay-regular-webfont.woff') format('woff');
+  src: url('http://localhost/fastwait/frontend/views/css/fonts/playfairdisplay/playfairdisplay-regular-webfont.woff2') format('woff2'),
+    url('http://localhost/fastwait/frontend/views/css/fonts/playfairdisplay/playfairdisplay-regular-webfont.woff') format('woff');
 }
 
 @font-face {
   font-family: PlayfairDisplay-Bold;
-  src: url('http://localhost/fastweit/frontend/views/css/fonts/playfairdisplay/playfairdisplay-bold-webfont.woff2') format('woff2'),
-    url('http://localhost/fastweit/frontend/views/css/fonts/playfairdisplay/playfairdisplay-bold-webfont.woff') format('woff');
+  src: url('http://localhost/fastwait/frontend/views/css/fonts/playfairdisplay/playfairdisplay-bold-webfont.woff2') format('woff2'),
+    url('http://localhost/fastwait/frontend/views/css/fonts/playfairdisplay/playfairdisplay-bold-webfont.woff') format('woff');
 }
 
 /*---------------------------------------------*/
 @font-face {
   font-family: Montserrat-Regular;
-  src: url('http://localhost/fastweit/frontend/views/css/fonts/montserrat/montserrat-regular-webfont.woff2') format('woff2'),
-    url('http://localhost/fastweit/frontend/views/css/fonts/montserrat/montserrat-regular-webfont.woff') format('woff');
+  src: url('http://localhost/fastwait/frontend/views/css/fonts/montserrat/montserrat-regular-webfont.woff2') format('woff2'),
+    url('http://localhost/fastwait/frontend/views/css/fonts/montserrat/montserrat-regular-webfont.woff') format('woff');
 }
 
 @font-face {
   font-family: Montserrat-Bold;
-  src: url('http://localhost/fastweit/frontend/views/css/fonts/montserrat/montserrat-bold-webfont.woff2') format('woff2'),
-    url('http://localhost/fastweit/frontend/views/css/fonts/montserrat/montserrat-bold-webfont.woff') format('woff');
+  src: url('http://localhost/fastwait/frontend/views/css/fonts/montserrat/montserrat-bold-webfont.woff2') format('woff2'),
+    url('http://localhost/fastwait/frontend/views/css/fonts/montserrat/montserrat-bold-webfont.woff') format('woff');
 }
 
 
