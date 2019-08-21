@@ -33,11 +33,11 @@ class ProductsController
   }
 
   /* Show Product Detail */
-  static public function ctrShowProductDetail()
+  static public function ctrShowProductDetail($item, $val)
   {
     $table = "aliproducts";
 
-    $response = ProductsModel::mdlShowProductDetail($table);
+    $response = ProductsModel::mdlShowProductDetail($table, $item, $val);
 
     return $response;
   }

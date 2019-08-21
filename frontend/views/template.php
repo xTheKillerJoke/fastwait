@@ -87,21 +87,18 @@
 			
 			foreach($routeSubCategories as $key => $value)
 			{
-				if ($val == $value["route"]) {
+				if ($val == $value["route"])
+				{
 					$route = $val;
 				}
 			}
 			/* =============================================================================================== */
 
 			/* Friendly URL'S of Products */
-			$routeProducts = ProductsController::ctrShowProductDetail($item, $val);
+		/* 	$routeProducts = ProductsController::ctrShowProductDetail($item, $val);
 		
-			foreach($routeSubCategories as $key => $value)
-			{
-				if ($val == $value["route"]) {
-					$route = $val;
-				}
-			}
+			var_dump($routeProducts); */
+
 			/* =============================================================================================== */
 			
 			/* White list of Friendly URL'S */

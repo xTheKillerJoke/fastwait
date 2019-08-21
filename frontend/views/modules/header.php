@@ -12,7 +12,7 @@
     <div class="top-bar">
       <div class="content-topbar flex-sb-m h-full container">
         <div class="left-top-bar">
-          Free shipping for standard order over $100
+          Shipping your Life
         </div>
 
         <div class="right-top-bar flex-w h-full login">
