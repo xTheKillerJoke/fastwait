@@ -65,6 +65,7 @@
 		/* Dynamic Content */
 		$routes = array();
 		$route = null;
+		$productDetail = null;
 
 		if (isset($_GET["route"]))
 		{
@@ -97,7 +98,10 @@
 			/* Friendly URL'S of Products */
 			$routeProducts = ProductsController::ctrShowProductDetail($item, $val);
 		
-			var_dump($routeProducts["route"]);
+			if($val == $routeProducts["route"])
+			{
+				$productDetail = $val;
+			}
 
 			/* =============================================================================================== */
 			
@@ -105,6 +109,10 @@
 			if($route != null)
 			{
 				include "modules/products.php";
+			}
+			elseif($productDetail != null)
+			{
+				include "modules/productDetail.php";
 			}
 			else
 			{
