@@ -3819,6 +3819,7 @@ input.num-product::-webkit-inner-spin-button {
 }
 
 .content {
+  width: calc(100% - 30px);
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
