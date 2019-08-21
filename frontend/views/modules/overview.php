@@ -265,12 +265,12 @@
 
         foreach ($products as $key => $value)
         {
-          echo '<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 content isotope-item women">
+          echo '<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women">
                   <!-- Block2 -->
                   <div class="block2">
                     <div class="block2-pic hov-img0 ';
-                    if($value["offer"]){
-                      echo '"';
+                    if($value["offer"] == 1){
+                      echo 'label-offer" data-label="Offer '.$value["offerDiscount"].'%"';
                     }
                     elseif(!$value["new"])
                     {
@@ -278,7 +278,7 @@
                     }
                     else
                     {
-                      echo 'label-offer" data-label="Offer '.$value["offerDiscount"].'%"';
+                      echo '"';
                     }
                     echo '>
                       <img src="'.$value["cover"].'" alt="IMG-PRODUCT">
@@ -289,12 +289,12 @@
                     </div>
           
                     <div class="block2-txt flex-w flex-t p-t-14">
-                      <div class="block2-txt-child1 flex-col-l">
+                      <div class="block2-txt-child1 flex-col-l content">
                         <a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
                           '.$value["title"].'
                         </a>';
           
-                        if (!$value["offer"])
+                        if ($value["offer"] == 1)
                         {
                           echo '<span class="stext-105 cl3">
                                   USD '.$value["offerTotal"].'
@@ -310,26 +310,27 @@
                                 </span>';
                         }
                         
-                      echo '</div>
-          
-                            <div class="block2-txt-child2 flex-r p-t-3">
-                              <a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
-                                <img class="icon-heart1 dis-block trans-04" src="http://localhost/fastwait/backend/views/img/icons/icon-heart-01.png" alt="ICON">
-                                <img class="icon-heart2 dis-block trans-04 ab-t-l" src="http://localhost/fastwait/backend/views/img/icons/icon-heart-02.png" alt="ICON">
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>';
+                echo '</div>
+                      <div class="block2-txt-child2 flex-r p-t-3">
+                        <a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
+                          <img class="icon-heart1 dis-block trans-04" src="http://localhost/fastwait/backend/views/img/icons/icon-heart-01.png" alt="ICON">
+                          <img class="icon-heart2 dis-block trans-04 ab-t-l" src="http://localhost/fastwait/backend/views/img/icons/icon-heart-02.png" alt="ICON">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>';
         }
 
       ?>
 
-    <!-- Load more -->
-    <div class="flex-c-m flex-w w-full p-t-45">
-      <a href="#" class="flex-c-m stext-101 cl5 size-103 bg2 bor1 hov-btn1 p-lr-15 trans-04">
-        Load More
-      </a>
-    </div>
+    
+    
+  </div>
+  <!-- Load more -->
+  <div class="flex-c-m flex-w w-full p-t-45">
+    <a href="#" class="flex-c-m stext-101 cl5 size-103 bg2 bor1 hov-btn1 p-lr-15 trans-04">
+      Load More
+    </a>
   </div>
 </section>
