@@ -5,13 +5,22 @@
 
   $category = ProductsController::ctrShowCategories($item, $val);
 
-  var_dump($category);
+  var_dump($category["id"]);
   
   if(!$category)
   {
     $subCategory = ProductsController::ctrShowSubCategories($item, $val);
   
-    var_dump($subCategory);
+    var_dump($subCategory[0]["id"]);
   }
+  else
+  {
+    $item2 = "id_category";
+    $val2 = $category["id"];
+  }
+
+  $order = "id";
+
+  $products = ProductsController::ctrShowProducts($order, $item2, $val2);
 
 ?>
