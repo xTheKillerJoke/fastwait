@@ -48,7 +48,7 @@ class ProductsModel
       $stmt -> bindParam(":".$item, $val, PDO::PARAM_STR);
       $stmt -> execute();
 
-      return $stmt -> fetch();
+      return $stmt -> fetchAll();
     }
     else
     {
@@ -70,6 +70,28 @@ class ProductsModel
 
     return $stmt -> fetch();
 
+    $stmt -> close();
+    $stmt = null;
+  }
+
+  /* Products List */
+  static public function mdlProductsList($table, $order, $item, $val)
+  {
+    if($item != null)
+    {
+      $stmt = Connection::connect()->prepare("SELECT * FROM $table WHERE $item = :$item ORDER BY $order DESC");
+      $stmt -> bindParam(":".$item, $val, PDO::PARAM_STR);
+      $stmt -> execute();
+
+      return $stmt -> fetchAll();
+    }
+    else
+    {
+      $stmt = Connection::connect()->prepare("SELECT * FROM $table ORDER BY $order DESC");
+      $stmt -> execute();
+
+      return $stmt -> fetchAll();
+    }
     $stmt -> close();
     $stmt = null;
   }

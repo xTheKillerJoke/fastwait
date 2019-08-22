@@ -41,4 +41,14 @@ class ProductsController
 
     return $response;
   }
+
+  /* Products List */
+  static public function ctrProductsList($order, $item, $val)
+  {
+    $table = "aliproducts";
+
+    $response = ProductsModel::mdlProductsList($table, $order, $item, $val);
+
+    return $response;
+  }
 }

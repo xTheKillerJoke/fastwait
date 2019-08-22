@@ -3824,3 +3824,8 @@ input.num-product::-webkit-inner-spin-button {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+}

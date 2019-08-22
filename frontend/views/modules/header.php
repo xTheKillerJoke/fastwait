@@ -1,5 +1,6 @@
-<?php 
+<?php
 
+  $url = Route::ctrRoute();
   $server = Route::ctrRouteServer(); 
 
 ?>
@@ -39,7 +40,7 @@
       <nav class="limiter-menu-desktop container">
 
         <!-- Logo desktop -->
-        <a href="#" class="logo" id="logo">
+        <a href="<?php echo $url; ?>" class="logo" id="logo">
           <img src="#" alt="IMG-LOGO">
         </a>
 
@@ -47,7 +48,7 @@
         <div class="menu-desktop">
           <ul class="main-menu">
             <li class="active-menu">
-              <a href="index.php">Home</a>
+              <a href="<?php echo $url; ?>">Home</a>
             </li>
 
             <li>
@@ -61,7 +62,7 @@
 
                   foreach ($categories as $key => $value)
                   {
-                    echo '<li><a href="'.$value["route"].'" class="categories">'.$value["category"].'</a>';
+                    echo '<li><a href="'.$url.$value["route"].'" class="categories">'.$value["category"].'</a>';
 
                     /* $item = "id_categories";
                     $val = $value["id"];
@@ -122,7 +123,7 @@
   <div class="wrap-header-mobile">
     <!-- Logo moblie -->
     <div class="logo-mobile">
-      <a href="index.php"><img src="#" alt="IMG-LOGO"></a>
+      <a href="<?php echo $url; ?>"><img src="#" alt="IMG-LOGO"></a>
     </div>
 
     <!-- Icon header -->
@@ -182,7 +183,7 @@
 
     <ul class="main-menu-m">
       <li>
-        <a href="index.php">Home</a>
+        <a href="<?php echo $url; ?>">Home</a>
       </li>
 
       <li>
@@ -196,7 +197,7 @@
 
             foreach ($categories as $key => $value)
             {
-              echo '<li><a href="'.$value["route"].'" class="categories">'.$value["category"].'</a></li>';
+              echo '<li><a href="'.$url.$value["route"].'" class="categories">'.$value["category"].'</a></li>';
             }
           ?>
         </ul>
@@ -230,7 +231,7 @@
         <img src="<?php echo $server; ?>views/img/icons/icon-close2.png" alt="CLOSE">
       </button>
 
-      <form class="wrap-search-header flex-w p-l-15">
+      <form class="wrap-search-header flex-w p-l-15" id="searcher" action="<?php echo $url; ?>searcher">
         <button class="flex-c-m trans-04">
           <i class="zmdi zmdi-search"></i>
         </button>

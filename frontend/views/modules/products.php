@@ -1,11 +1,12 @@
 <?php
 
+  $url = Route::ctrRoute();
   $server = Route::ctrRouteServer();
 
 ?>
 
 <!-- Banner -->
-<div class="sec-banner bg0 p-t-80 p-b-50">
+<div class="sec-banner bg0 p-t-100 p-b-50">
   <div class="container">
     <div class="row">
       <div class="col-md-6 col-xl-4 p-b-30 m-lr-auto">
@@ -89,18 +90,13 @@
 	<!-- breadcrumb -->
 <div class="container">
   <div class="bread-crumb flex-w p-l-25 p-r-15 p-t-30 p-lr-0-lg">
-    <a href="index.html" class="stext-109 cl8 hov-cl1 trans-04">
+    <a href="<?php echo $url; ?>" class="stext-109 cl8 hov-cl1 trans-04">
       Home
       <i class="fa fa-angle-right m-l-9 m-r-10" aria-hidden="true"></i>
     </a>
 
-    <a href="product.html" class="stext-109 cl8 hov-cl1 trans-04">
-      Men
-      <i class="fa fa-angle-right m-l-9 m-r-10" aria-hidden="true"></i>
-    </a>
-
-    <span class="stext-109 cl4">
-      Lightweight Jacket
+    <span class="stext-109 cl4 text-capitalize">
+      <?php echo $val; ?>
     </span>
   </div>
 </div>
@@ -110,7 +106,7 @@
   <div class="container">
     <div class="p-b-10">
       <h3 class="ltext-103 cl5">
-        Product Overview
+        Products View
       </h3>
     </div>
 
@@ -360,6 +356,20 @@
 
       <?php
 
+        /* Call Pagination */
+        if(isset($routes[1]))
+        {
+          $base = ($routes[1] - 1)*20;
+          $top = 20;
+        }
+        else
+        {
+          $routes[1] = 1;
+          $base = 0;
+          $top = 20;
+        }
+
+        /* Call to the Products of Categories and Sub-Categories */
         $item = "route";
         $val = $routes[0];
 
@@ -378,15 +388,12 @@
           $val2 = $category["id"];
         }
 
-        $order = "views";
-        $base = 0;
-        $top = 20;
+        $order = "id";
 
         $products = ProductsController::ctrShowProducts($order, $item2, $val2, $base, $top);
+        $productsList = ProductsController::ctrProductsList($order, $item2, $val2);
 
-        var_dump($products["title"]);
-
-        /* if(!$products)
+        if(!$products)
         {
           echo "You have no Products to show";
         }
@@ -394,7 +401,7 @@
         {
           foreach ($products as $key => $value)
           {
-            echo '<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women">
+            echo '<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item '.$val.'">
                     <!-- Block2 -->
                     <div class="block2">
                       <div class="block2-pic hov-img0 ';
@@ -450,21 +457,134 @@
                     </div>
                   </div>';
           }
-        } */
+        }
 
       ?>
-
-    
     
   </div>
-  <!-- Pagination -->
-  <div class="flex-c-m flex-w w-full p-t-38">
-    <a href="#" class="flex-c-m how-pagination1 trans-04 m-all-7 active-pagination1">
-      1
-    </a>
 
-    <a href="#" class="flex-c-m how-pagination1 trans-04 m-all-7">
-      2
-    </a>
+  <!-- Pagination -->
+  <?php
+
+    if(count($productsList) != 0)
+    {
+      $productsPage = ceil(count($productsList)/20);
+
+      if($productsPage > 4)
+      {
+        /* First 4 Pages Buttons and Last Page */
+        if($routes[1] == 1)
+        {
+          echo '<div class="flex-c-m flex-w w-full p-t-38">';
+
+          for ($i=1; $i <= 4; $i++) { 
+            echo '<a id="item'.$i.'" href="'.$url.$val.'/'.$i.'" class="flex-c-m how-pagination1 trans-04 m-all-7">
+                    '.$i.'
+                  </a>';
+          }
+          echo '<a class="flex-c-m trans-04 m-all-7 disabled">
+                  ...
+                </a>
+                <a id="item'.$i.'" href="'.$url.$val.'/'.$productsPage.'" class="flex-c-m how-pagination1 trans-04 m-all-7">
+                  '.$productsPage.'
+                </a>
+                <a href="'.$url.$val.'/2" class="flex-c-m how-pagination1 trans-04 m-all-7">
+                  <i class="fa fa-caret-right" aria-hidden="true"></i>
+                </a>
+                </div>';
+        }
+        /* Latest Half Pages Buttons */
+        elseif($routes[1] != $productsPage &&
+               $routes[1] != 1 &&
+               $routes[1] < ($productsPage/2) &&
+               $routes[1] < ($productsPage-3))
+        {
+          $currentPageNum = $routes[1];
+          echo '<div class="flex-c-m flex-w w-full p-t-38">
+                <a href="'.$url.$val.'/'.($currentPageNum-1).'" class="flex-c-m how-pagination1 trans-04 m-all-7">
+                  <i class="fa fa-caret-left" aria-hidden="true"></i>
+                </a>';
+
+          for ($i=$currentPageNum; $i <= ($currentPageNum+3); $i++) { 
+            echo '<a id="item'.$i.'" href="'.$url.$val.'/'.$i.'" class="flex-c-m how-pagination1 trans-04 m-all-7">
+                    '.$i.'
+                  </a>';
+          }
+          echo '<a class="flex-c-m trans-04 m-all-7 disabled">
+                  ...
+                </a>
+                <a id="item'.$i.'" href="'.$url.$val.'/'.$productsPage.'" class="flex-c-m how-pagination1 trans-04 m-all-7">
+                  '.$productsPage.'
+                </a>
+                <a href="'.$url.$val.'/'.($currentPageNum+1).'" class="flex-c-m how-pagination1 trans-04 m-all-7">
+                  <i class="fa fa-caret-right" aria-hidden="true"></i>
+                </a>
+                </div>';
+        }
+        /* First Half Pages Buttons */
+        elseif($routes[1] != $productsPage &&
+               $routes[1] != 1 &&
+               $routes[1] >= ($productsPage/2) &&
+               $routes[1] < ($productsPage-3))
+        {
+          echo '<div class="flex-c-m flex-w w-full p-t-38">
+                  <a href="'.$url.$val.'/'.($currentPageNum-1).'" class="flex-c-m how-pagination1 trans-04 m-all-7">
+                    <i class="fa fa-caret-left" aria-hidden="true"></i>
+                  </a>
+                  <a id="item1" href="'.$url.$val.'/1" class="flex-c-m how-pagination1 trans-04 m-all-7">
+                    1
+                  </a>
+                  <a class="flex-c-m trans-04 m-all-7 disabled">
+                    ...
+                  </a>';
+
+            for ($i=$currentPageNum; $i <= ($currentPageNum+3); $i++) { 
+              echo '<a id="item'.$i.'" href="'.$url.$val.'/'.$i.'" class="flex-c-m how-pagination1 trans-04 m-all-7">
+                      '.$i.'
+                    </a>';
+          }
+          echo '<a href="'.$url.$val.'/'.($currentPageNum+1).'" class="flex-c-m how-pagination1 trans-04 m-all-7">
+                  <i class="fa fa-caret-right" aria-hidden="true"></i>
+                </a>
+                </div>';
+        }
+        /* Latest 4 Pages Buttons and First Page */
+        else
+        {
+          $currentPageNum = $routes[1];
+
+          echo '<div class="flex-c-m flex-w w-full p-t-38">
+                  <a href="'.$url.$val.'/'.($currentPageNum-1).'" class="flex-c-m how-pagination1 trans-04 m-all-7">
+                    <i class="fa fa-caret-left" aria-hidden="true"></i>
+                  </a>
+                  <a id="item1" href="'.$url.$val.'/1" class="flex-c-m how-pagination1 trans-04 m-all-7">
+                    1
+                  </a>
+                  <a class="flex-c-m trans-04 m-all-7 disabled">
+                    ...
+                  </a>';
+
+          for ($i=($productsPage-3); $i <= $productsPage; $i++) { 
+            echo '<a id="item'.$i.'" href="'.$url.$val.'/'.$i.'" class="flex-c-m how-pagination1 trans-04 m-all-7">
+                    '.$i.'
+                  </a>';
+          }
+          echo '</div>';
+        }
+      }
+      else
+      {
+        echo '<div class="flex-c-m flex-w w-full p-t-38">';
+        for ($i=1; $i <= $productsPage; $i++) { 
+          echo '<a id="item'.$i.'" href="'.$url.$val.'/'.$i.'" class="flex-c-m how-pagination1 trans-04 m-all-7">
+                  '.$i.'
+                </a>';
+        }
+        echo '</div>';
+      }
+    }
+
+  ?>
+
   </div>
 </section>
