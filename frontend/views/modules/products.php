@@ -377,7 +377,7 @@
         else
         {
           $item2 = "id_category";
-          $val2 = $category["id"];
+          $val2 = $category[0]["id"];
 
           var_dump($val2);
         }
