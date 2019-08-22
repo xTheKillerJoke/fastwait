@@ -384,7 +384,9 @@
 
         $products = ProductsController::ctrShowProducts($order, $item2, $val2, $base, $top);
 
-        if(!$products)
+        var_dump($products);
+
+        /* if(!$products)
         {
           echo "You have no Products to show";
         }
@@ -448,7 +450,7 @@
                     </div>
                   </div>';
           }
-        }
+        } */
 
       ?>
 
