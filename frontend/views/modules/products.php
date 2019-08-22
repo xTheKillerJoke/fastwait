@@ -378,7 +378,7 @@
           $val2 = $category["id"];
         }
 
-        $order = "id";
+        $order = "views";
         $base = 0;
         $top = 20;
 
