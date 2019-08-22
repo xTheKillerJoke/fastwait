@@ -11,7 +11,7 @@
   {
     $subCategory = ProductsController::ctrShowSubCategories($item, $val);
   
-    var_dump($subCategory[1]["id"]);
+    var_dump($subCategory[0]["id"]);
   }
 /*   else
   {
