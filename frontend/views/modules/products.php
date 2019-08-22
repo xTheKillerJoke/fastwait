@@ -24,7 +24,7 @@
   $base = 0;
   $top = 20;
 
-  $products = ProductsController::ctrShowProducts($order, $item2, $val2);
+  $products = ProductsController::ctrShowProducts($order, $item2, $val2, $base, $top);
 
   var_dump(count($products));
 
