@@ -370,7 +370,7 @@
           $subCategory = ProductsController::ctrShowSubCategories($item, $val);
 
           $item2 = "id_subcategory";
-          $val2 = $subCategory[0]["id"];
+          $val2 = $subCategory["id"];
         }
         else
         {
