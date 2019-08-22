@@ -52,7 +52,7 @@ class ProductsModel
     }
     else
     {
-      $stmt = Connection::connect()->prepare("SELECT * FROM $table ORDER BY $order DESC LIMIT 16");
+      $stmt = Connection::connect()->prepare("SELECT * FROM $table ORDER BY $order DESC LIMIT $base, $top");
       $stmt -> execute();
 
       return $stmt -> fetchAll();

@@ -33,4 +33,6 @@
     echo "You have no Products to show";
   }
 
+  include "modules/featured.php";
+
 ?>
