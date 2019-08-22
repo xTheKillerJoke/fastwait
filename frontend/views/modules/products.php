@@ -384,7 +384,7 @@
 
         $products = ProductsController::ctrShowProducts($order, $item2, $val2, $base, $top);
 
-        var_dump($products["id"]);
+        var_dump($products["title"]);
 
         /* if(!$products)
         {
