@@ -371,14 +371,18 @@
 
           $item2 = "id_subcategory";
           $val2 = $subCategory["id"];
+
+          var_dump($val2);
         }
         else
         {
           $item2 = "id_category";
           $val2 = $category["id"];
+
+          var_dump($val2);
         }
 
-        $order = "id";
+/*         $order = "id";
         $base = 0;
         $top = 20;
 
@@ -448,7 +452,7 @@
                     </div>
                   </div>';
           }
-        }
+        } */
 
       ?>
 
