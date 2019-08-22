@@ -40,11 +40,11 @@ class ProductsModel
   }
 
   /* Show Products */
-  static public function mdlShowProducts($table, $order, $item, $val)
+  static public function mdlShowProducts($table, $order, $item, $val, $base, $top)
   {
     if($item != null)
     {
-      $stmt = Connection::connect()->prepare("SELECT * FROM $table WHERE $item = :$item ORDER BY $order DESC LIMIT 16");
+      $stmt = Connection::connect()->prepare("SELECT * FROM $table WHERE $item = :$item ORDER BY $order DESC LIMIT $base, $top");
       $stmt -> bindParam(":".$item, $val, PDO::PARAM_STR);
       $stmt -> execute();
 

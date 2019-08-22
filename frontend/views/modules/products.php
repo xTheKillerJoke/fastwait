@@ -21,9 +21,16 @@
   }
 
   $order = "id";
+  $base = 0;
+  $top = 20;
 
   $products = ProductsController::ctrShowProducts($order, $item2, $val2);
 
-  var_dump($products);
+  var_dump(count($products));
+
+  if(!$products)
+  {
+    echo "You have no Products to show";
+  }
 
 ?>

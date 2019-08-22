@@ -262,8 +262,12 @@
         $server = Route::ctrRouteServer();
 
         $order = "views";
+        $item = null;
+        $val = null;
+        $base = 0;
+        $top = 12;
 
-        $products = ProductsController::ctrShowProducts($order);
+        $products = ProductsController::ctrShowProducts($order, $item, $val, $base, $top);
 
         foreach ($products as $key => $value)
         {
