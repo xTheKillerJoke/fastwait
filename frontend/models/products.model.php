@@ -40,13 +40,23 @@ class ProductsModel
   }
 
   /* Show Products */
-  static public function mdlShowProducts($table, $order)
+  static public function mdlShowProducts($table, $order, $item, $val)
   {
-    $stmt = Connection::connect()->prepare("SELECT * FROM $table ORDER BY $order DESC LIMIT 16");
-    $stmt -> execute();
+    if($item != null)
+    {
+      $stmt = Connection::connect()->prepare("SELECT * FROM $table WHERE $item = :$item ORDER BY $order DESC LIMIT 16");
+      $stmt -> bindParam(":".$item, $val, PDO::PARAM_STR);
+      $stmt -> execute();
 
-    return $stmt -> fetchAll();
+      return $stmt -> fetch();
+    }
+    else
+    {
+      $stmt = Connection::connect()->prepare("SELECT * FROM $table ORDER BY $order DESC LIMIT 16");
+      $stmt -> execute();
 
+      return $stmt -> fetchAll();
+    }
     $stmt -> close();
     $stmt = null;
   }
