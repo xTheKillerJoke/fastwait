@@ -1,0 +1,6 @@
+# Prevent seeing the list of contents of a directory
+Options All -Indexes
+
+# Friendly URL
+RewriteEngine On
+RewriteRule ^([-a-zA-Z0-9/]+)$ index.php?route=$1

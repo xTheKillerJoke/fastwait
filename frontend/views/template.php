@@ -112,7 +112,7 @@
 			}
 			elseif($productDetail != null)
 			{
-				include "modules/products.php";
+				include "modules/productsDetail.php";
 			}
 			else
 			{
