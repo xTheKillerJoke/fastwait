@@ -1,35 +1,108 @@
 <?php
 
-class TableProductsManager
+require_once "../controllers/categories.controller.php";
+require_once "../controllers/variants.controller.php";
+
+require_once "../models/categories.model.php";
+require_once "../models/variants.model.php";
+
+class TableVariantsManager
 {
-  /* Show Table Products Manager */
+  /* Show Table Variants Manager */
   public function showTable()
   {
-    $img = "<img class='img-thumbnail' src='https://ae01.alicdn.com//kf//HTB1qHVOdRsmBKNjSZFFq6AT9VXaF//Vestido-de-verano-sin-mangas-para-mujer-con-encaje-y-cuello-en-V-Sexy-vestido-con.jpg_50x50.jpg'>";
+    $item = null;
+    $val = null;
 
-    $options = "<div class='btn-group'>
-                  <button type='button' class='btn btn-warning btn-flat'><i class='fa fa-pencil'></i></button>
-                  <button type='button' class='btn btn-success btn-flat'><i class='fa fa-check'></i></button>
-                  <button type='button' class='btn btn-danger btn-flat'><i class='fa fa-remove'></i></button>
-                </div>";
-    $dataJson = '{
-                  "data":  [
+    $variants = VariantsController::ctrShowVariants($item, $val);
+
+    $dataJson = '
+    {
+      "data": [ ';
+
+    for ($i=0; $i < count($variants)-1; $i++) {
+      /* Get Image */
+      $variantsImg = "<img src='".$variants[$i]["variantsImg"]."' class='img-thumbnail' width='100px'></img>";
+      /* Get Colors */
+      $item = "id";
+      $val = $variants[$i]["id_color"];
+
+      $colors = ColorsController::ctrShowColors($item, $val);
+
+      if ($colors["colorName"] == "")
+      {
+        $color = "N/A";
+      }
+      else
+      {
+        $color = $colors["colorName"];
+      }
+
+      /* Get Locations */
+      $item2 = "id";
+      $val2 = $variants[$i]["id_location"];
+
+      $locations = LocationsController::ctrShowLocations($item2, $val2);
+
+      if ($locations["locationName"] == "")
+      {
+        $location = "N/A";
+      }
+      else
+      {
+        $location = $locations["locationName"];
+      }
+
+      /* Get Sizes */
+      $item3 = "id";
+      $val3 = $variants[$i]["id_size"];
+
+      $sizes = SizesController::ctrShowSizes($item3, $val3);
+
+      if ($sizes["sizeName"] == "")
+      {
+        $size = "N/A";
+      }
+      else
+      {
+        $size = $sizes["sizeName"];
+      }
+      
+
+      /* Add Offer Status */
+      if($variants[$i]["offerStatus"] == 0)
+      {
+        $statusColor = "bg-navy";
+        $statusText = "Disable";
+        $statusOffer = 1;
+      }
+      else
+      {
+        $statusColor = "bg-olive";
+        $statusText = "Active";
+        $statusOffer = 0;
+      }
+
+      $status = "<button class='btn btn-xs btn-flat btnStatus ".$statusColor."' idvariants='".$variants[$i]["id"]."' statusOffer='".$statusOffer."'>".$statusText."</button>";
+
+      $dataJson .=  '[
                       "1",
                       "'.$img.'",
                       "Negro",
                       "L",
                       "Estados Unidos",
-                      "Women",
-                      "-",
                       "221",
                       "11.72",
                       "7.74",
                       "2",
                       "%",
+                      "status",
                       "'.$options.'"
-                    
-                  ]
-                }';
+                    ],';
+    }
+    $dataJson = substr($dataJson, 0, -1);
+    $dataJson .=']
+    }';
     
     echo $dataJson;
   }

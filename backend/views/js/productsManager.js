@@ -5,8 +5,18 @@ $.ajax({
   }
 })
 
-$(function () {
+/* $(function () {
   $(".tableDS").DataTable({
     "ajax": "ajax/tableProductsManager.ajax.php"
   })
-})
+}) */
+
+$(document).ready(function () {
+  $('#tableDS').DataTable({
+    "serverSide": true,
+    "ajax": "ajax/tableProductsManager.ajax.php",
+    "deferRender": true,
+    "retrieve": true,
+    "processing": true
+  });
+});

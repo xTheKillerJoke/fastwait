@@ -89,7 +89,7 @@
                 </div>
                 <!-- /.box-header -->
                 <div class="box-body">
-                  <table class="table table-bordered table-striped dt-responsive tableDS" width="100%">
+                  <table id="tableDS" class="table table-bordered table-striped dt-responsive" width="100%">
                     <thead>
                       <tr>
                         <th width="10px">#</th>
@@ -97,13 +97,12 @@
                         <th>Color</th>
                         <th>Size</th>
                         <th>Location</th>
-                        <th>Category</th>
-                        <th>Sub-Category</th>
                         <th>Quantity</th>
                         <th>Price</th>
                         <th>Offer</th>
                         <th>Increase</th>
                         <th>Discount</th>
+                        <th>Offer Status</th>
                         <th>Options</th>
                       </tr>
                     </thead>
@@ -136,13 +135,12 @@
                         <th>Color</th>
                         <th>Size</th>
                         <th>Location</th>
-                        <th>Category</th>
-                        <th>Sub-Category</th>
                         <th>Quantity</th>
                         <th>Price</th>
                         <th>Offer</th>
                         <th>Increase</th>
                         <th>Discount</th>
+                        <th>Offer Status</th>
                         <th>Options</th>
                       </tr>
                     </tfoot>
