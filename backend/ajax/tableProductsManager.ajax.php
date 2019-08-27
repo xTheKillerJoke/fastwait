@@ -8,6 +8,16 @@ require_once "../models/variants.model.php";
 
 class TableVariantsManager
 {
+  public $productLink;
+
+  public function valideLink()
+  {
+    $data = $this->productLink;
+
+    //$response = DropShippingController::getProductLink();
+
+    echo json_encode($data);
+  }
   /* Show Table Variants Manager */
   public function showTable()
   {
@@ -109,5 +119,9 @@ class TableVariantsManager
 }
 
 /* Activate Table Products Manager */
-$activate = new TableProductsManager();
-$activate -> showTable();
+/* $activate = new TableProductsManager();
+$activate -> showTable(); */
+
+$productLink = new TableVariantsManager();
+$productLink -> productLink = $_POST["productLink"];
+$productLink -> valideLink();

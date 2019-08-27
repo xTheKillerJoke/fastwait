@@ -26,9 +26,9 @@
           </div>
           <div class="box-body">
             <div class="input-group">
-              <input type="text" class="form-control">
+              <input type="text" class="form-control" id="link">
               <span class="input-group-btn">
-                <button type="button" class="btn btn-info btn-flat">Go!</button>
+                <button type="button" class="btn btn-info btn-flat" id="getLink">Go!</button>
               </span>
               <span class="input-group-btn">
                 <button type="button" class="btn btn-danger btn-flat">Cancel</button>
